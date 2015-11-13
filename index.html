@@ -1,140 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="An online portfolio of web designer Basel Hashish">
+    <meta name="author" content="Basel Hashish">
 
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="">
 
-  <title>BaseCode Studio</title>
+    <title>BaseCode Studio</title>
 
-  <!-- Bootstrap Core CSS -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="styles/font-awesome.min.css">
+    <!-- Animate -->
+    <link rel="stylesheet" href="styles/animate.css">
+    <!-- Custome -->
+    <link rel="stylesheet" href="styles/styles.css">
+    <!-- Custome Fonts -->
 
-  <!-- Custom CSS -->
-  <link href="css/styles.css" rel="stylesheet">
 
-  <!-- Custom Fonts -->
-  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-  <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-  <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-
-</head>
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-  <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    <i class="fa fa-bars"></i>
-        </button>
-          <a class="navbar-brand page-scroll" href="#">Basel Hashish</a>
-      </div>
-      <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-        <ul class="nav navbar-nav">
-          <li><a href="#page-top">Home</a></li>
-          <li><a href="#about" class="page-scroll">About</a></li>
-          <li><a href="#portfolio" class="page-scroll">Portfolio</a></li>
-          <li><a href="#contact" class="page-scroll">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <header class="intro">
-    <div class="intro-body">
+  </head>
+  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" data-offset="50">
+    <nav class="navbar navbar-custom navbar-fixed-top">
       <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-md-offset-2">
-            <h1 class="brand-heading">BaseCode</h1>
-            <p class="intro-text">Creating the Web of Tomorrow</p>
-            <a href="#about" class="btn btn-circle page-scroll">
+        <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                  <i class="fa fa-bars"></i>
+              </button>
+              <a href="#" class="navbar-brand page-scroll">Basel Hashish</a>
+        </div> <!--navbar header-->
+        <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="#page-top" class="page-scroll">Home</a></li>
+                <li><a href="#about" class="page-scroll">About</a></li>
+                <li><a href="#skills" class="page-scroll">Skills</a></li>
+                <li><a href="#contact" class="page-scroll">Contact</a></li>
+              </ul>
+        </div> <!--nav body-->
+      </div> <!--nav container-->
+    </nav>
+    <header class="intro">
+      <div class="intro-body">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+              <h1 class="brand-heading os-animation" data-os-animation="fadeInDown" data-os-animation-delay="1s">BaseCode</h1>
+              <div class="or-spacer os-animation" data-os-animation='bounceIn' data-os-animation-delay="2s">
+                <div class="mask">
+                  <span><i>&hearts;</i></span>
+                </div>
+              </div> <!--Spacer end -->
+                <p class="intro-text os-animation" data-os-animation="rotateIn" data-os-animation-delay="3s">Creating the WEB of Tomorrow</p>
+                <a href="#about" class="btn btn-circle page-scroll os-animation" data-os-animation="bounceIn" data-os-animation-delay="4s">
                   <i class="fa fa-angle-double-down animated"></i>
-            </a>
-          </div>
+                </a>
+            </div> <!--col-->
+          </div> <!--row-->
+        </div> <!--container-->
+      </div>  <!--intro body-->
+    </header>
+    <section id="about" class="container content-section text-center">
+        <div class="col-lg-8 col-lg-offset-2">
+          <img src="img/me.jpg" alt="myPic" class="myPic os-animation" data-os-animation="fadeInLeft" data-os-animation-delay="0s"/>
         </div>
-      </div>
-    </div>
-  </header>
-  <section id="about" class="container content-section text-center">
-    <div class="row">
-      <div class="col-lg-4 col-lg-offset-2">
-        <h2>About Me</h2>
-        <p>
-          I'm a self-taught web designer with knowledge of HTML5, CSS3, Bootstrap, JavaScript, Jquery and Ruby on Rails Framework.
-        </p>
-      </div>
-      <div class="col-lg-push-0 col-lg-offset-6">
-        <img src="img/me.jpg" class="myPic">
-      </div>
-    </div>
-  </section>
-  <section id="portfolio" class="content-section text-center">
-    <div class="portfolio-section pull-right">
-      <div class="container pull-right">
-        <div class="row">
-          <div class="col-lg-3">
-            <img src="http://placehold.it/350x150">
-          </div>
-          <div class="col-lg-3">
-            <img src="http://placehold.it/350x150">
-          </div>
-          <div class="col-lg-3">
-            <img src="http://placehold.it/350x150">
-          </div>
+        <div class="col-lg-8 col-lg-offset-2">
+          <p>
+            I'm a self-taught web designer with knowledge of HTML5, CSS3, Bootstrap, JavaScript, Jquery and Ruby on Rails Framework.
+          </p>
         </div>
-        <div class="row">
-          <div class="col-lg-3">
-            <img src="http://placehold.it/350x150">
+    </section>
+    <section id="skills" class="skills content-section">
+      <div class="container">
+      	<div class="content">
+          	<div class="col">
+              <h2 class="text-center">My Skills</h2>
+              <ul id="skill">
+              <li class="os-animation" data-os-animation="fadeInLeft" data-os-animation-delay="1s"><span class="expand html5"><img src="http://www.w3.org/html/logo/downloads/HTML5_Badge_32.png" alt="html5" /></span></li>
+              <li class="os-animation" data-os-animation="fadeInLeft" data-os-animation-delay="1.1s"><span class="expand css3"><img src="http://io13-high-dpi.appspot.com/images/CSS3_Logo.svg" alt="css3" width=32px height=32px/></span></li>
+              <li class="os-animation" data-os-animation="fadeInLeft" data-os-animation-delay="1.2s"><span class="expand jquery"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Boostrap_logo.svg/2000px-Boostrap_logo.svg.png" alt="bootstrap" width=32px height=32px /></span></li>
+              <li class="os-animation" data-os-animation="fadeInLeft" data-os-animation-delay="1.3s"><span class="expand photoshop"><img src="http://3.bp.blogspot.com/-PTty3CfTGnA/TpZOEjTQ_WI/AAAAAAAAAeo/KeKt_D5X2xo/s1600/js.jpg" alt="javascript" width=32px height=32px /></span></li>
+              <li class="os-animation" data-os-animation="fadeInLeft" data-os-animation-delay="1.4s"><span class="expand dreamweaver"><img src="http://www.cheesetoast.co.uk/cheesepress/wp-content/uploads/2010/07/jquery-logo.jpg" alt="jquery" width=32px height=32px /></span></li>
+              <li class="os-animation" data-os-animation="fadeInLeft" data-os-animation-delay="1.5s"><span class="expand dreamweaver"><img src="http://corporate.onebip.com/wp-content/uploads/2013/06/ruby-logo.png" alt="ruby" width=32px height=32px /></span></li>
+              <li class="os-animation" data-os-animation="fadeInLeft" data-os-animation-delay="1.6s"><span class="expand dreamweaver"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/Ruby_on_Rails.svg/791px-Ruby_on_Rails.svg.png" alt="ruby on rails" width=32px height=32px /></span></li>
+              </ul>
+              </div>
           </div>
-          <div class="col-lg-3">
-            <img src="http://placehold.it/350x150">
-          </div>
-          <div class="col-lg-3">
-            <img src="http://placehold.it/350x150">
-          </div>
-        </div>
       </div>
-    </div>
-  </section>
-  <section id="contact" class="container content-section text-center">
-    <div class="row">
+    </section>
+    <section id="contact" class="container conent-section text-center">
       <div class="col-lg-8 col-lg-offset-2">
         <h2>Contact Me</h2>
-        <p>Feel free to stalk me on any of those social medias ;)</p>
+        <p>Feel free to stalk me on any of these sites ;)</p>
         <ul class="list-inline banner-social-buttons">
-          <li><a href="https://twitter.com/BaselHashish" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a></li>
-          <li><a href="https://github.com/BaselHashish" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-github fa-fw"></i> <span class="network-name">GitHub</span></a></li>
-          <li><a href="https://eg.linkedin.com/pub/basel-hashish/1b/999/66a" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a></li>
-          <li><a href="https://ipoawe.wordpress.com" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-wordpress fa-fw"></i><span class="network-name">My Blog</span></a></li>
+              <li><a href="https://twitter.com/BaselHashish" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a></li>
+              <li><a href="https://github.com/BaselHashish" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-github fa-fw"></i> <span class="network-name">GitHub</span></a></li>
+              <li><a href="https://eg.linkedin.com/pub/basel-hashish/1b/999/66a" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a></li>
+              <li><a href="https://ipoawe.wordpress.com" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-wordpress fa-fw"></i><span class="network-name">My Blog</span></a></li>
         </ul>
       </div>
-    </div>
-  </section>
-
-  <footer>
-        <div class="container text-center">
-            <p>Copyright &copy; BaseCode Design Studio 2016</p>
-        </div>
-  </footer>
-
-
-
-
-
-
-  <script src="js/jquery.js"></script>
-
-      <!-- Bootstrap Core JavaScript -->
-      <script src="js/bootstrap.min.js"></script>
-
-      <!-- Plugin JavaScript -->
-      <script src="js/jquery.easing.min.js"></script>
-
-      <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-
-      <!-- Custom Theme JavaScript -->
-      <script src="js/script.js"></script>
-
-</body>
+    </section>
+    <footer>
+      <div class="container text-center">
+        <p>Copyright &copy; BaseCode Design Studio 2016</p>
+      </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="script/jquery-1.11.3.min.js"></script>
+    <script src="script/jquery.easing.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="script/bootstrap.min.js"></script>
+    <script src="script/jquery.waypoints.min.js"></script>
+    <!-- Custome Js -->
+    <script src="script/script.js"></script>
+  </body>
 </html>
